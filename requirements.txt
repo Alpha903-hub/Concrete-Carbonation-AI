@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+openpyxl
+jupyter
+pytest
+torch
+transformers
+accelerate
+bitsandbytes
