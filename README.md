@@ -118,10 +118,13 @@ Start with `notebooks/00_project_working_notebook.ipynb` in Google Colab. Upload
 
 For the data audit, read `docs/data/RECONSTRUCTION_PLAN.md` first. Do not claim the raw-to-processed transformation is reproducible until that work is complete.
 
-## 9. Licensing and attribution
+## 9. Licence et attribution
 
-The supplied article states that it is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). The supplementary workbook and derived data should be checked for any separate notice before redistribution. The project code license has not yet been selected. See `LICENSING_TO_CONFIRM.md`.
+Le code original de ce projet est distribué sous licence MIT. Consultez le fichier `LICENSE` pour connaître les conditions d'utilisation, de modification et de redistribution.
 
+L'article scientifique de référence est publié sous licence Creative Commons Attribution 4.0 International (CC BY 4.0). Le classeur complémentaire et les données dérivées font l'objet d'une vérification distincte de leurs conditions de redistribution.
+
+La licence MIT du code ne s'étend pas automatiquement aux articles, aux données ou aux ressources appartenant à des tiers.
 ## 10. Contribution
 
 Contributions are welcome in scientific documentation, data auditing, variable mapping, unit validation, missingness and repeated-measurement audits, study-aware validation, residual analysis, and extraction annotation. Read `CONTRIBUTING.md` before proposing changes.
