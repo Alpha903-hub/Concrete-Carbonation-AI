@@ -118,13 +118,14 @@ Start with `notebooks/00_project_working_notebook.ipynb` in Google Colab. Upload
 
 For the data audit, read `docs/data/RECONSTRUCTION_PLAN.md` first. Do not claim the raw-to-processed transformation is reproducible until that work is complete.
 
-## 9. Licence et attribution
+## 9. Licence and attribution
 
-Le code original de ce projet est distribué sous licence MIT. Consultez le fichier `LICENSE` pour connaître les conditions d'utilisation, de modification et de redistribution.
+The original code developed for this project is distributed under the MIT License. See the `LICENSE` file for the terms governing its use, modification, and redistribution.
 
-L'article scientifique de référence est publié sous licence Creative Commons Attribution 4.0 International (CC BY 4.0). Le classeur complémentaire et les données dérivées font l'objet d'une vérification distincte de leurs conditions de redistribution.
+The reference scientific article is published under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. The supplementary workbook and derived datasets are subject to a separate review of their redistribution terms.
 
-La licence MIT du code ne s'étend pas automatiquement aux articles, aux données ou aux ressources appartenant à des tiers.
+The MIT License covering the project's original code does not automatically apply to third-party articles, datasets, or other external resources.
+
 ## 10. Contribution
 
 Contributions are welcome in scientific documentation, data auditing, variable mapping, unit validation, missingness and repeated-measurement audits, study-aware validation, residual analysis, and extraction annotation. Read `CONTRIBUTING.md` before proposing changes.
@@ -205,8 +206,35 @@ Le contrat visé est d'extraire uniquement les valeurs explicitement présentes,
 
 Un exemple réussi est un test d'intégration, pas une validation scientifique. Il faut un ensemble de paragraphes annotés manuellement provenant d'études tenues à l'écart, avec métriques par champ et contrôle des preuves.
 
-## 7. Reproduction
+## 7. Contenu du dépôt
+
+- `data/source/` : article RILEM et classeur supplémentaire fournis.
+- `data/processed/` : jeux de données nettoyés et restructurés.
+- `data/evaluation/` : prédictions hors pli et métriques par étude.
+- `notebooks/` : instantané du notebook de travail Google Colab, sans les sorties.
+- `docs/science/` : plan de rédaction scientifique.
+- `docs/data/` : protocole de provenance et d'audit des données.
+- `docs/methodology/` : protocole de modélisation et de validation.
+- `docs/extraction/` : protocole d'extraction Qwen.
+- `src/` : utilitaires de validation.
+- `tests/` : tests des contrats de données.
+
+## 8. Reproduction
 
 Commencer par `notebooks/00_project_working_notebook.ipynb` dans Google Colab. Téléverser ou monter les données de `data/processed/` lorsque le notebook le demande. Ce notebook est un support de travail, pas encore un package entièrement refactorisé : l'exécuter de haut en bas dans un runtime vierge et noter les dépendances et cellules dépendantes de l'état du runtime.
 
 Lire `docs/data/RECONSTRUCTION_PLAN.md` avant de prétendre que la transformation du fichier brut vers la base préparée est reproductible.
+
+## 9. Licence et attribution
+
+Le code original développé pour ce projet est distribué sous licence MIT. Consulter le fichier `LICENSE` pour connaître les conditions d'utilisation, de modification et de redistribution.
+
+L'article scientifique de référence est publié sous licence Creative Commons Attribution 4.0 International (CC BY 4.0). Le classeur supplémentaire et les jeux de données dérivés font l'objet d'une vérification distincte de leurs conditions de redistribution.
+
+La licence MIT couvrant le code original du projet ne s'applique pas automatiquement aux articles, jeux de données ou autres ressources externes.
+
+## 10. Contribution
+
+Les contributions sont les bienvenues dans les domaines de la documentation scientifique, de l'audit des données, de la correspondance des variables, de la validation des unités, de l'analyse des valeurs manquantes et des mesures répétées, de la validation par étude source, de l'analyse des résidus et de l'annotation des données d'extraction.
+
+Lire `CONTRIBUTING.md` avant de proposer des modifications.
